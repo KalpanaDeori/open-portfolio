@@ -1,0 +1,33 @@
+/* VARIABLES */
+:root {
+  /* FONTS */
+  --roboto: "Roboto", sans-serif;
+
+  /* COLORS */
+  --black: #000;
+  --white: #fff;
+}
+
+/* MAIN PAGE DESIGN */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+.portfolio-link {
+  text-decoration: none;
+  margin-right: 1rem;
+  font-family: var(--roboto);
+  font-weight: 500;
+}
+
+/* HOME SECTION STYLING */
+h1.homepage-heading {
+  font-family: var(--roboto);
+  border-bottom: 1px solid black;
+}

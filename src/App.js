@@ -12,6 +12,7 @@ import {
 // PORTFOLIO LINKS
 import { DemoPortfolio } from "./Portfolios/demo-portfolio/demo-potfolio";
 import { Dolendeori } from "./Portfolios/DolenDeori/dolendeori";
+import { Debakrishna } from "./Portfolios/debakrishna_portfolio/debakrishna"
 function App() {
   return (
     <>
@@ -32,6 +33,9 @@ function App() {
               <NavLink to="/dolen-deori" className="portfolio-link">
                 Dolen Deori
               </NavLink>
+              <NavLink to="/debakrishna" className="portfolio-link">
+                Debakrishna
+              </NavLink>
             </Container>
           </Route>
 
@@ -41,6 +45,9 @@ function App() {
           </Route>
           <Route exact path="/dolen-deori">
             <Dolendeori></Dolendeori>
+          </Route>
+          <Route exact path="/debakrishna">
+            <Debakrishna></Debakrishna>
           </Route>
         </Switch>
       </Router>

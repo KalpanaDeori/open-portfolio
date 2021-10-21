@@ -1,0 +1,133 @@
+/* GLOBAL STYLING */
+.section--head--text {
+  font-weight: 600;
+}
+.section {
+  border-bottom: 2px solid lightgray;
+}
+/* SCROLLBAR STYLING */
+::-webkit-scrollbar {
+  width: 1vw;
+}
+::-webkit-scrollbar-thumb {
+  background: #223;
+  border: 0.2vw solid white;
+  border-radius: 5rem;
+}
+/* NAVIGATION STYLING */
+.navigation {
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  z-index: 100;
+}
+.navbar--logo {
+  font-family: "Roboto", sans-serif;
+}
+.nav--link {
+  font-family: "Roboto";
+  margin-left: 2rem;
+}
+
+/* HEADER SECTION STYLING */
+header {
+  border-bottom: 2px solid lightgray;
+}
+header .header--text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  height: 100vh;
+  flex-direction: column;
+}
+header .header--text .my--image--area {
+  background: black;
+  height: 200px;
+  margin-bottom: 3rem;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  transition: 0.5s ease-in-out;
+}
+header .header--text .my--image--area .my--image {
+  height: 200px;
+  transition: 0.5s ease-in-out;
+}
+header .header--text .my--image--area .my--image:hover {
+  transform: scale(1.1);
+}
+header .header--text .my--image--area:hover {
+  border-radius: 1rem;
+  transform: scale(0.97);
+}
+
+header .my--name,
+.my--intro-text {
+  font-family: "Roboto", sans-serif;
+}
+header .my--name {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/* SECTION -- 1 STYLING */
+#section--1 {
+  padding-bottom: 5rem;
+}
+#section--1 .experience--area .experices--image {
+  height: 60px;
+  cursor: pointer;
+  animation: beat 1.5s ease-in-out infinite alternate;
+}
+@keyframes beat {
+  from {
+    transform: scale(1.01);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+#section--1 .experience--area .experices--image:hover {
+  transform: scale(1.05);
+}
+
+#section--1 .experience--area .row {
+  margin-top: 4rem;
+}
+
+/* SECTION -- 2 STYLING */
+#section--2 {
+  padding-bottom: 4rem;
+}
+#section--2 .row {
+  margin-top: 4rem;
+}
+
+#section--2 .row .card--title {
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#section--2 .row .card--text {
+  font-family: "Roboto";
+  text-align: justify;
+}
+
+#section--2 .row .card {
+  box-shadow: 2px 3px 40px #36363641;
+}
+#section--2 .row .card .source--code-btn {
+  font-family: "Roboto";
+}
+/* FOOTER STYLING */
+#footer {
+  padding: 1rem;
+}
+
+#footer h4 {
+  font-family: "Roboto";
+}
+#footer .nav--link {
+  text-decoration: underline;
+}

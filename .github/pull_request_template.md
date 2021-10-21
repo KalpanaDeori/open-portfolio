@@ -10,6 +10,6 @@ Issue : #ISSUE_NUMBER
 
 ## CHECKLIST :
 
-[] Is there a open issue for this PR.
-[] Have you tested your code.
-[] Your code PR dosen't violate our COTRIBTING rules.
+[ ] Is there a open issue for this PR.
+[ ] Have you tested your code.
+[ ] Your code PR dosen't violate our COTRIBTING rules.

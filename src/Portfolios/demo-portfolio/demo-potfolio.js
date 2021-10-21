@@ -5,7 +5,7 @@ import "./demo-portfolio.css";
 export const DemoPortfolio = () => {
   return (
     <>
-      <header>
+      <header className="demo-portfolio">
         <Container>
           <div className="header-content">
             <h1>This is a demo portfolio</h1>
